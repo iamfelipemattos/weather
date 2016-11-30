@@ -1,0 +1,8 @@
+*.dll
+*.exe
+
+node_modules
+
+.DS_Store
+.Trashes
+Thumbs.db
