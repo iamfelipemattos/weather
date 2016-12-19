@@ -1,0 +1,52 @@
+@import '../helpers/_variables.scss';
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  height: 529px;
+  background: $container-color;
+
+  .header {
+    height: 54px;
+    background: $header-color;
+
+    .header__brand {
+      position: absolute;
+      top: 12px;
+      left: 97px;
+    }
+  }
+
+  .menu {
+    height: 76px;
+    background: $menu-color;
+    padding-left: 94px;
+
+    .menu__link {
+      display: inline-block;
+      color: #e2e2e2;
+      font-family: "Open Sans";
+      font-size: 11px;
+      font-weight: 700;
+      line-height: 38px;
+    }
+    .menu__link .title {
+      text-align: left;
+    }
+    .menu__link .menu__image {
+      display: block;
+      margin: auto;
+    }
+  }
+
+  .content {
+    position: absolute;
+  top: 147px;
+  left: 81px;
+  width: 883px;
+  height: 344px;
+  border-radius: 4px 3px 3px 4px;
+  background-color: #fff;
+  }
+}
