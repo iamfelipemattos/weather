@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Previsão do tempo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+    <!-- build:css -->
+    <link rel="stylesheet" href="dist/css/style.min.css">
+    <!-- endbuild -->
+
+  </head>
+  <body>
+    <div class="weather_forecast">
+      <header>
+        <h1 class="weather_forecast__title">Previsão do tempo</h1>
+      </header>
+
+      <section class="search">
+        <form class="search__form">
+          <input type="text"
+                 name="city"
+                 class="search__city"
+                 placeholder="Insira aqui o nome da cidade" />
+          <button type="submit" name="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+      </section>
+
+    <hr class="separator" />
+
+    <section class="capital">
+      <h1 class="capital__title">Capitais</h1>
+      <section class="capital__list">
+        <div class="capital__container"></div>
+      </section>
+    </section>
+    </div>
+  </body>
+
+  <!-- build:js -->
+    <script src="dist/applications.js"></script>
+  <!-- endbuild -->
+</html>
